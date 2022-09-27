@@ -25,5 +25,54 @@ body {
     height: 120px; 
     position: absolute; 
     top: 100px;
-    border-radius: 100px 100px 110px 80px; 
+    border-radius: 100px 100px 105px 80px; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.ear {
+    background: hotpink;
+    height: 15px; 
+    width: 15px;
+    position: absolute;
+    top: 40px;
+}
+
+.one {
+    left: -15px;
+    bottom: 100px;
+}
+.two {
+    right: -15px;
+}
+
+.eye {
+    background: black;
+    height: 15px; 
+    width: 15px;
+    position: absolute; 
+    top: 40px; 
+}
+.eye:first-of-type {
+    left: 25px;
+}
+.eye:nth-of-type(2) {
+    right: 25px;
+}
+    
+.nose {
+    background: black;
+    height: 15px; 
+    width: 15px;
+    position: absolute; 
+    transform: translateY(10px);
+}
+
+.mouth {
+    background: red;
+    height: 15px; 
+    width: 40px;
+    position: absolute; 
+    bottom: 15px; 
 }
