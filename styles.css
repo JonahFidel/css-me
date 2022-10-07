@@ -31,20 +31,21 @@ body {
     justify-content: center;
 }
 
-.ear {
-    background: hotpink;
-    height: 15px; 
-    width: 15px;
+.ear-one, .ear-two {
+    background: rgb(255, 234, 192);
+    height: 20px; 
+    width: 10px;
     position: absolute;
     top: 40px;
+    border-radius: 50%;
+    border: 1px solid black;
 }
 
-.one {
-    left: -15px;
-    bottom: 100px;
+.ear-one {
+    left: -7px;
 }
-.two {
-    right: -15px;
+.ear-two {
+    right: -7px;
 }
 
 .eye {
@@ -53,6 +54,9 @@ body {
     width: 15px;
     position: absolute; 
     top: 40px; 
+    border-radius: 12px 0 12px 0;
+    transform: rotate(45deg)
+    
 }
 .eye:first-of-type {
     left: 25px;
