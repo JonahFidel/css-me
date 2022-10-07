@@ -80,3 +80,11 @@ body {
     position: absolute; 
     bottom: 15px; 
 }
+
+.hair {
+    position: absolute; 
+    width: 100px; 
+    height: 30px; 
+    background: yellow;
+    top: -5px;
+}
